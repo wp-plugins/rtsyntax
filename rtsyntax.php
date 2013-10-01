@@ -4,16 +4,10 @@ Plugin Name: rtSyntax
 Plugin URI: http://rtcamp.com
 Author: rtCamp
 Author URI: http://rtcamp.com
-Version: 1.0.1
+Version: 1.0.2
 Description: A no-fuss, lightweight, fast and optimised syntax highlighter for WordPress
 Contributors: rtcamp, rahul286, JoshuaAbenazer
 Tags: code highlighter, highlighter, highlighting, syntax, syntax highlighter, source, jquery, javascript, nginx, php, code, CSS, html, php, sourcecode, xhtml, languages, TinyMCE
-Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.0.1
-License: GPLv2 or later (of-course)
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Donate Link: http://rtcamp.com/donate/
 */
 
 class rtSyntax {  
@@ -113,7 +107,7 @@ class rtSyntax {
     public function enqueue() {
         $options = get_option( 'rtsyntax_options' );
         wp_enqueue_style( 'rtsyntax-' . $options['theme'], plugin_dir_url(__FILE__) . 'css/' . $options['theme'] . '.css' );
-        wp_enqueue_script( 'rtsyntax', plugin_dir_url(__FILE__) . 'js/highlight.js' );
+        wp_enqueue_script( 'rtsyntax', plugin_dir_url(__FILE__) . 'js/highlight.js', array(), null, true );
     }
     
     public function onload() { ?>
