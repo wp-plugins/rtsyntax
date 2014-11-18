@@ -2,8 +2,8 @@
 Contributors: rtcamp, rahul286, JoshuaAbenazer
 Tags: code highlighter, highlighter, highlighting, syntax, syntax highlighter, source, jquery, javascript, nginx, php, code, CSS, html, php, sourcecode, xhtml, languages, TinyMCE
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.0.1
+Tested up to: 4.0
+Stable tag: 1.0.3
 License: GPLv2 or later (of-course)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate Link: http://rtcamp.com/donate/
@@ -50,6 +50,12 @@ Its just that we are hyperactive on our own forum!
 
 == Changelog ==
 
+= 1.0.3 =
+* Update compatible upto
+
+= 1.0.2 =
+* Fixed WordPress tags
+
 = 1.0.1 =
 * Updated Contributors List
 * Added ScreenShots
@@ -60,7 +66,6 @@ Its just that we are hyperactive on our own forum!
 
 == Upgrade Notice ==
 
-= 1.0.1 =
+= 1.0.3 =
 
-* Updated Contributors List
-* Added ScreenShots
+* Update compatible upto
